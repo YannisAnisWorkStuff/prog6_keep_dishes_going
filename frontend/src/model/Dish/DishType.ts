@@ -1,0 +1,1 @@
+export type DishType = 'STARTER' | 'MAIN' | 'DESSERT';

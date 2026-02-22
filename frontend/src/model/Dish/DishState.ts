@@ -1,0 +1,1 @@
+export type DishState = 'DRAFT' | 'PUBLISHED' | 'OUT_OF_STOCK' | 'UNPUBLISHED';

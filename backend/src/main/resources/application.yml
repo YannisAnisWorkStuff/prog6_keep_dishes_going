@@ -1,0 +1,22 @@
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: user
+    password: password
+
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          jwk-set-uri: http://localhost:8180/realms/keepdishesgoing/protocol/openid-connect/certs
+          issuer-uri: http://localhost:8180/realms/keepdishesgoing
+
+keycloak:
+  admin:
+    url: http://localhost:8180
+    realm: keepdishesgoing
+    client-id: admin-cli
+    username: admin
+    password: admin
+
